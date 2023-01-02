@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Clase principal contenedor-->
+    <div class="container">
+    <!--Clase secundaria del encabezado-->
+        <div class="wrapper">
+            <!--Clases donde están los elementos el encabezado-->
+            <div class="logo-encabezado"><img src="logo.png" alt=""></div>
+            <ul class="barra-menu">
+                <!--Lísta de titulos-->
+                <li class="Servicios"> <a>Servicios</a> </li>
+                <li class="Apps"> <a>Apps</a> </li>
+                <li class="Inicio"> <a>Inicio</a> </li>
+                <li class="Trabajos"> <a>Trabajos</a> </li>
+                <li class="Ofertas"> <a>Ofertas</a> </li>
+                <li class="Demo"> <a>Demo</a> </li>
+                <li class="Ejemplos"> <a>Ejemplos</a> </li>
+                <li class="Blog"> <a>Blog</a> </li>
+                <li class="Contactos"> <a>Contacto</a> </li>
+            </ul>
+        </div>
+        <!--Clases donde está el fondo con el texto de ejemplo-->
+        <div class="fondo">
+            <img src="fondo.jpg" alt="No se muestra la imagen">
+            <p>EJEMPLOS</p>
+        </div>
+        <!--Clases que contiene las opciones para cambiar entre pestañas en la página original-->
+        <div class="pestañas">
+            <lu class="lista-pestaña">
+                <li> <a>Inicio</a> </li>
+                <li> <a>| Ejemplos</a> </li>
+                <li> <a>| Galerias Fotos</a> </li>
+                <li> <a>| Galeria Ejemplo 1</a> </li>
+            </lu>
+        </div>
+        <!--Clases donde se ubican los títulos principales de la galería-->
+        <div class="titulos">
+                <h1>Galeria Ejemplo 1</h1>
+                <h2>Galerías</h2>
+                <h2>Galería Fotografías Ejemplo 1</h2>
+        </div>
+        <!--Clases que contiene los botones de la galeria-->
+        <div class="overlay">
+            <div class="slideshow">
+                <span class="btn_cerrar">&times;</span>
+                <div class="botones adelante">
+                    <i class="mdi mdi-arrow-right-circle-outline"></i>
+                </div>
+                <div class="botones atras">
+                    <i class="mdi mdi-arrow-left-circle-outline"></i>
+                </div>
+                <img src="" alt="" id="img_slideshow">
+            </div>
+        </div>
+        <!--Clases que contiene las imagenes de la galeria-->
+        <section class="galeria">
+            <div class="columna">
+                <div id="imagen1"></div>
+                <div id="imagen2"></div>
+                <div id="imagen3"></div>
+                <div id="imagen4"></div>
+                <div id="imagen5"></div>
+            </div>
+            <div class="columna">
+                <div id="imagen6"></div>
+                <div id="imagen7"></div>
+                <div id="imagen8"></div>
+                <div id="imagen9"></div>
+                <div id="imagen10"></div>
+            </div>
+            <div class="columna">
+                <div id="imagen11"></div>
+                <div id="imagen12"></div>
+                <div id="imagen13"></div>
+                <div id="imagen14"></div>
+                <div id="imagen15"></div>
+            </div>
+            <div class="columna">
+                <div id="imagen16"></div>
+                <div id="imagen17"></div>
+                <div id="imagen18"></div>
+                <div id="imagen19"></div>
+                <div id="imagen20"></div>
+            </div>
+        </section>
+        <!--Contiene las frases de despedida de la galería-->
+        <div class="despedida">
+            <h3>"Esta Galeria solo es un Ejemplo, podemos hacer muchos más tipos de Galerías"</h3>
+            <h3>!!!Consultenos!!!</h3>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
